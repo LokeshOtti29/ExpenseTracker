@@ -1,38 +1,47 @@
 import React from "react";
-
+import styles from "./AddExpense.module.css";
 const AddExpense = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <h5>Add New Expense</h5>
+    <div className={styles.addexpense_outer}>
+      <div className={styles.addexpense_inner}>
+        <div className={styles.inner_div}>
+          <h3 className={styles.addexpense_title}>Add New Expense</h3>
         </div>
-        <div>
+        <div className={styles.inner_div}>
           <div>Expense Name:</div>
           <div>
-            <input type="text" />
+            <input className={styles.addexpense_input} type="text" />
           </div>
         </div>
-        <div>
+        <div className={styles.inner_div}>
           <div>Amount:</div>
           <div>
-            <input type="number" name="" id="" />
+            <input
+              className={styles.addexpense_input}
+              type="number"
+              name=""
+              id=""
+            />
           </div>
         </div>
-        <div>
+        <div className={styles.inner_div}>
           <div>Date:</div>
           <div>
-            <input type="date" />
+            <input className={styles.addexpense_input} type="date" />
           </div>
         </div>
-        <div>
+        <div className={styles.inner_div}>
           <div>Description:</div>
           <div>
-            <textarea name="" id=""></textarea>
+            <textarea
+              className={styles.addexpense_input}
+              name=""
+              id=""
+            ></textarea>
           </div>
         </div>
-        <div>
-          <button>Add Expense</button>
+        <div className={styles.inner_div}>
+          <button className={styles.addexpense_button}>Add Expense</button>
         </div>
       </div>
     </div>

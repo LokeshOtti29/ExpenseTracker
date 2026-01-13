@@ -1,13 +1,15 @@
 import React from "react";
-
+import styles from "./Home.module.css";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   return (
-    <div>
-      <div>
-        <div>Welcome to Expense Tracker</div>
-        <div>
-          <div>Add Expense</div>
-          <div>Expense List</div>
+    <div className={styles.Home_outer}>
+      <div className={styles.Home_inner}>
+        <div className={styles.Home_title}>Welcome to Expense Tracker</div>
+        <div className={styles.Home_navigation}>
+          <div onClick={() => navigate("/Home/addExpense")}>Add Expense</div>
+          <div onClick={() => navigate("/Home/Expenselist")}>Expense List</div>
         </div>
         <div>
           <p>

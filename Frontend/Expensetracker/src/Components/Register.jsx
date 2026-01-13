@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Register.module.css";
+import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div className={styles.register_outer}>
@@ -43,7 +44,7 @@ const Register = () => {
           <button className={styles.register_button}>Login</button>
         </div>
         <div className={styles.register_newuser}>
-          <a href="#">Already have account? Login here</a>
+          <Link to={"/login"}>Already have account? Login here</Link>
         </div>
       </div>
     </div>

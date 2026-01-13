@@ -1,0 +1,49 @@
+.updateexpense_outer{
+   height: 100vh;
+   width: 100vw;
+   margin:auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(228, 228, 228);
+}
+.updateexpense_inner{
+    height: 70vh;
+    width: 80vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.updateexpense_title{
+    margin: 10px;
+    font-size: larger;
+    font-weight: 900;
+}
+.inner_div{
+    margin:10px;
+}
+.updateexpense_input{
+    margin-top: 5px;
+    height: 35px;
+    width:70vw;
+    font-weight: bold;
+}
+.updateexpense_button{
+    height: 35px;
+    width: 70vw;
+    background-color: rgb(25, 206, 25);
+    color:white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+.updateexpense_newuser{
+    margin:10px;
+    display: flex;
+    justify-content: center;
+}

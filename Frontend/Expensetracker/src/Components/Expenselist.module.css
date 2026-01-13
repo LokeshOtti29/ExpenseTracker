@@ -1,4 +1,4 @@
-.Home_outer{
+.list_outer{
    height: 100vh;
    width: 100vw;
    margin:auto;
@@ -6,7 +6,7 @@
    justify-content: center;
    background-color: rgb(228, 228, 228);
 }
-.Home_inner{
+.list_inner{
     height: 50vh;
     width: 80vw;
     background-color: white;
@@ -16,13 +16,7 @@
     padding: 5px;
     margin: 20px;
 }
-.Home_navigation{
-    display: flex;
-    margin: 20px;
-    gap:30px;
-    color: rgb(25, 206, 25);
-}
-.Home_title{
+.list_title{
     margin: 10px;
     font-size: larger;
     font-weight: 900;
